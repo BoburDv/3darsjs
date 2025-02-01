@@ -234,18 +234,18 @@ if (bSon % 3 === 0){
     console.log("Bo'linadi")
 }
 
-//32 --- ??? ----
-//33 ----???-----
+//34 ---???---
+//35 ---???---
 // let kSon = prompt("To'g'ri kvadrat")
 // if (kSon == Math()* 2) {
 //     console.log("Kvadrat son")
 // }
 
 
-///35 - 6-18 orasida bo‘lsa, “Kunduz” aks holda “Tun”
-let hour = prompt("Soatni kiriting:")
-if (hour >= 6) {
-    if (hour <= 18){
+///36 - 6-18 orasida bo‘lsa, “Kunduz” aks holda “Tun”
+let soat = prompt("Soatni kiriting:")
+if (soat >= 6) {
+    if (soat <= 18){
         console.log("Kunduz")
     } 
 } 
@@ -253,7 +253,7 @@ else{
     console.log("Tun")
 }
 
-//36 - Son musbat yoki nol ekanligini tekshirish:
+//37 - Son musbat yoki nol ekanligini tekshirish:
 let Yson = prompt("musbat yoki nol tekshirish")
 if (Yson >= 0) {
     console.log("Yaroqli son")
@@ -297,6 +297,7 @@ if (bRaqam == bRaqam2){
 else{
     console.log("Matnlar farq qiladi")
 }
+///34 ---???---
 
 //44 - Son teskarisi musbat bo‘lsa, “Musbat teskari” deb chiqaring.
 let tr = prompt("Teskari raqamlar")
@@ -304,7 +305,7 @@ if(-tr > 0) {
     console.log("Musbat teskari")
 }
 
-//45
+//45 - 35 dan yuqori bo‘lsa “Xavfli issiq!” deb chiqaring.
 let temperature = prompt("Haroratni kiriting:")
 if (temperature > 35){
     console.log("Xavfli issiq!")
@@ -321,14 +322,13 @@ else if(numb1 < numb2){
     console.log("Kichik son")
 }
 
-//47
+//48 - Sonning teskarisi musbat ekanligini aniqlash:
 let mtes = prompt("Teskari musbat")
 if (-mtes > 0){
     console.log("Musbat teskarilik")
 }
 
-
-//48 - Oy raqami asosida faslni aniqlang:
+//49 - Oy raqami asosida faslni aniqlang:
 let fasl = prompt("Fasilni aniqlash 1/12")
 if (fasl == 3) {
     console.log("Bahor")
