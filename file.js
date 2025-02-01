@@ -310,3 +310,68 @@ if (temperature > 35){
     console.log("Xavfli issiq!")
 }
 
+
+//46 Raqamlar nisbiy qiymati:
+let numb1 = prompt("Katta kichik son")
+let numb2 = prompt("Yana kiriting")
+if (numb1 > numb2){
+    console.log("Katta son")
+} 
+else if(numb1 < numb2){
+    console.log("Kichik son")
+}
+
+//47
+let mtes = prompt("Teskari musbat")
+if (-mtes > 0){
+    console.log("Musbat teskarilik")
+}
+
+
+//48 - Oy raqami asosida faslni aniqlang:
+let fasl = prompt("Fasilni aniqlash 1/12")
+if (fasl == 3) {
+    console.log("Bahor")
+} 
+if (fasl == 5) {
+    console.log("Bahor")
+} 
+if (fasl == 4) {
+    console.log("Bahor")
+} 
+if (fasl == 6) {
+    console.log("Yoz")
+} 
+if (fasl == 7) {
+    console.log("Yoz")
+} 
+if(fasl == 8) {
+    console.log("Yoz")
+} 
+if (fasl == 9) {
+    console.log("Kuz")
+} 
+if (fasl == 10) {
+    console.log("Kuz")
+} 
+if (fasl == 11) {
+    console.log("Kuz")
+} 
+if(fasl == 12) {
+    console.log("Qish")
+} 
+if(fasl == 1) {
+    console.log("Qish")
+} 
+if(fasl == 2) {
+    console.log("Qish")
+} 
+
+//50 - 2025 yuqori bo‘lsa “Kelajak yili” deb chiqaring:
+let kyil = prompt("2025/yuqori yil kiriting")
+if (kyil > 2025){
+    console.log("Kelajak yili")
+}
+else(
+    console.log("O'tgan yillar")
+)
