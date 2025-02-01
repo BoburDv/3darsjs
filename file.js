@@ -58,18 +58,18 @@ let yil = +prompt("Kabisa yilini aniqlash")
 console.log(yil + " Kabisa yili");
 
 //Yosh bo‘yicha status aniqlash:
-let age = +prompt("Yosh bo'yicha status aniqlash")
-if (age <= 12) {
+let yoshi = +prompt("Yosh bo'yicha status aniqlash")
+if (yoshi <= 12) {
     console.log("Bolakay")
 } 
-else if(age <= 19) {
+else if(yoshi <= 19) {
     console.log("O'smir")
 } 
 else{
     console.log("Katta yoshdagi odam")
 }
 
-// 9 ----- ??? -------
+// 9 --- ??? ------
 // let num1 = prompt("Katta sonni topish")
 // let num2 = prompt("Yana kiriting")
 // let num3 = prompt("Yana kiriting")
@@ -114,8 +114,8 @@ if (harorat2 >= 15){
 }
 
 //14 - Foydalanuvchi tug'ilgan yilini tekshirish:
-let year = prompt("Tug'ilgan yilingizni kiriting")
-if (year < 2000) {
+let Yyil = prompt("Tug'ilgan yilingizni kiriting")
+if (Yyil < 2000) {
     console.log("Eski avlod")
 } 
 else{
@@ -174,7 +174,7 @@ else{
     console.log("Nol emas")
 }
 
-//26 ----- ??? -------
+//26 --- ??? ------
 
 
 //27 - Bahor oyini aniqlash:
@@ -210,7 +210,7 @@ else{
     console.log("10 dan katta")
 }
 
-//30 ----- ??? -------
+//30 --- ??? ------
 
 
 //31 - “Frontend” yoki “Backend” kiritgan bo‘lsa “Dasturchi” deb chiqaring.
@@ -234,8 +234,8 @@ if (bSon % 3 === 0){
     console.log("Bo'linadi")
 }
 
-//34 ---???---
-//35 ---???---
+//34 --- ??? ------
+//35 --- ??? ------
 // let kSon = prompt("To'g'ri kvadrat")
 // if (kSon == Math()* 2) {
 //     console.log("Kvadrat son")
@@ -248,8 +248,7 @@ if (soat >= 6) {
     if (soat <= 18){
         console.log("Kunduz")
     } 
-} 
-else{
+} else{
     console.log("Tun")
 }
 
@@ -263,8 +262,8 @@ else{
 }
 
 //38 - Matn uzun bo‘lsa “Uzun matn” deb chiqaring.
-let text = prompt("Uzun matin (5+)")
-if(text.length < 7){
+let matn5 = prompt("Uzun matin (5+)")
+if(matn5.length < 7){
     console.log("Qisqa matn")
 } 
 else{
@@ -280,7 +279,8 @@ else{
     console.log("Toq raqam")
 }
 
-//40 ----???----
+//40 --- ??? ------
+
 
 //41 - Yo‘l harorati tavsiyasi:
 let Yharorat = prompt("Yo'l harorati")
@@ -297,7 +297,9 @@ if (bRaqam == bRaqam2){
 else{
     console.log("Matnlar farq qiladi")
 }
-///34 ---???---
+
+///43 --- ??? ------
+
 
 //44 - Son teskarisi musbat bo‘lsa, “Musbat teskari” deb chiqaring.
 let tr = prompt("Teskari raqamlar")
@@ -306,11 +308,10 @@ if(-tr > 0) {
 }
 
 //45 - 35 dan yuqori bo‘lsa “Xavfli issiq!” deb chiqaring.
-let temperature = prompt("Haroratni kiriting:")
-if (temperature > 35){
+let harorat3 = prompt("Haroratni kiriting:")
+if (harorat3 > 35){
     console.log("Xavfli issiq!")
 }
-
 
 //46 Raqamlar nisbiy qiymati:
 let numb1 = prompt("Katta kichik son")
