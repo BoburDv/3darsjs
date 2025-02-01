@@ -331,40 +331,40 @@ if (-mtes > 0){
 
 //49 - Oy raqami asosida faslni aniqlang:
 let fasl = prompt("Fasilni aniqlash 1/12")
-if (fasl == 3) {
+if (fasl == 1){
     console.log("Bahor")
 } 
-if (fasl == 5) {
+if (fasl == 3){
     console.log("Bahor")
 } 
-if (fasl == 4) {
+if (fasl == 2){
     console.log("Bahor")
 } 
-if (fasl == 6) {
+if (fasl == 4){
     console.log("Yoz")
 } 
-if (fasl == 7) {
+if (fasl == 5){
     console.log("Yoz")
 } 
-if(fasl == 8) {
+if(fasl == 6){
     console.log("Yoz")
 } 
-if (fasl == 9) {
+if (fasl == 7){
     console.log("Kuz")
 } 
-if (fasl == 10) {
+if (fasl == 8){
     console.log("Kuz")
 } 
-if (fasl == 11) {
+if (fasl == 9){
     console.log("Kuz")
 } 
-if(fasl == 12) {
+if(fasl == 10){
     console.log("Qish")
 } 
-if(fasl == 1) {
+if(fasl == 11){
     console.log("Qish")
 } 
-if(fasl == 2) {
+if(fasl == 12){
     console.log("Qish")
 } 
 
