@@ -45,12 +45,12 @@ else{
 }
 
 //6 - Bahoni aniqlash:
-let baho = +prompt("0-100 gacha baho bering")
-if (baho >= 80) {
-    console.log("B") 
+let baho = +prompt("0/100 gacha baho bering")
+if (baho >= 90) {
+    console.log("a") 
 }
-else if (baho >= 90) {
-    console.log("A")
+else if (baho >= 80){
+    console.log("B")
 }
 
 //7 - Kabisa yilini aniqlash:
@@ -58,7 +58,7 @@ let yil = +prompt("Kabisa yilini aniqlash")
 console.log(yil + " Kabisa yili");
 
 //Yosh bo‘yicha status aniqlash:
-let yoshi = +prompt("Yosh bo'yicha status aniqlash")
+let yoshi = +prompt("Yoshi bo'yicha aniqlash /12/19/")
 if (yoshi <= 12) {
     console.log("Bolakay")
 } 
@@ -85,7 +85,7 @@ else{
 
 
 //10 - Haroratga qarab tavsiya berish:
-let harorat = +prompt("Harorat tavsiya")
+let harorat = +prompt("Harorat tavsiya -0/0/30")
 if (harorat < 0) {
     console.log("Sovuq")
 } 
@@ -94,7 +94,7 @@ else if (harorat > 30) {
 }
 
 //12 - Sonning 5 ga qoldiqsiz bo'linishi 
-let number = +prompt("Qoldiqsiz bo'lish")
+let number = +prompt("Qoldiqsiz bo'lish 9/3")
 if (number % 5 == 0){
     console.log("Bo'linadi")
 } 
@@ -103,7 +103,7 @@ else{
 }
 
 //13 - Harorat mezoni:
-let harorat2 = prompt("Harorat kiriting")
+let harorat2 = prompt("Harorat kiriting /15/25/")
 if (harorat2 >= 15){
     if (harorat2 <= 25 ){
         console.log("Ideal harorat")
@@ -126,7 +126,7 @@ else{
 
 
 //21 - Yosh bo‘yicha tavsiyalar:
-let yosh = prompt("Yoshingizni kiriting")
+let yosh = prompt("Yoshingizni kiriting 18/60/")
 if (yosh < 18){
     console.log("Yoshlarga tavsiya")
 } 
@@ -138,7 +138,7 @@ else{
 }
 
 //22 - Yozilgan ism uzunligi:
-let Ism = prompt("Qisqa yoki uzun ism")
+let Ism = prompt("Qisqa yoki uzun ism /5")
 if (Ism.length < 5){
     console.log("Qisqa ism")
 }
@@ -147,7 +147,7 @@ else{
 }
 
 //23 - Son musbat yoki nol bo‘lsa, “Yaroqli son” deb chiqaring.
-let ySon = prompt("Yaroqli musbat yoki yaroqsiz")
+let ySon = prompt("Yaroqli musbat yoki yaroqsiz '-0/10'")
 if (ySon >= 0){
     console.log("Yaroqli son")
 } 
@@ -156,7 +156,7 @@ else{
 }
 
 //24 - Agar ikkita raqam bir xil bo‘lsa “Teng juftlik”
-let Json1 = prompt("Juft son uchun")
+let Json1 = prompt("Juft son uchun '10/10'")
 let Json2 = prompt("Yana kiting")
 if (Json1 == Json2){
     console.log("Teng juftlik")
@@ -166,7 +166,7 @@ else {
 }
 
 //25 - Raqam oxiri 0 bilan tugashini aniqlash:
-let nol0 = prompt("son oxiri 0 bilan tugashi")
+let nol0 = prompt("son oxiri 0 bilan tugashi '1990'")
 if (nol0 % 10 == 0){
     console.log("Nol bilan tugaydi")
 } 
@@ -178,14 +178,14 @@ else{
 
 
 //27 - Bahor oyini aniqlash:
-let oy = prompt("Oy raqamini kiriting")
-if (oy == 3){
+let oy = prompt("Bahor oyini kiriting /3")
+if (oy == 1){
     console.log("Bahor")
 } 
-else if(oy == 4){
+else if(oy == 2){
     console.log("Bahor")
 } 
-else if(oy == 5){
+else if(oy == 3){
     console.log("Bahor")
 }
 else{
@@ -193,7 +193,7 @@ else{
 }
 
 //28 - Juft toq son va u nechiga tengligini chiqarish:
-let Tson = prompt("Toq yoki juft son")
+let Tson = prompt("Toq yoki juft son '13'")
 if (Tson % 2 == 0){
     console.log(Tson + " Juft son")
 } 
@@ -214,7 +214,7 @@ else{
 
 
 //31 - “Frontend” yoki “Backend” kiritgan bo‘lsa “Dasturchi” deb chiqaring.
-let kasb = prompt("Frontend yoki Backend")
+let kasb = prompt("Frontend yoki Backend 'Backend'")
 if(kasb == "Frontend"){
     console.log("Dasturchi")
 } 
@@ -223,7 +223,7 @@ if(kasb == "Backend") {
 }
 
 //32 - Millatni aniqlash:
-let millat = prompt("Millatingizni kiriting")
+let millat = prompt("Millatingizni kiriting 'Uzbek'")
 if (millat == "Uzbek") {
     console.log("Assalomu alaykum")
 }
@@ -243,7 +243,7 @@ if (bSon % 3 === 0){
 
 
 ///36 - 6-18 orasida bo‘lsa, “Kunduz” aks holda “Tun”
-let soat = prompt("Soatni kiriting:")
+let soat = prompt("Soatni kiriting '7'")
 if (soat >= 6) {
     if (soat <= 18){
         console.log("Kunduz")
@@ -253,7 +253,7 @@ if (soat >= 6) {
 }
 
 //37 - Son musbat yoki nol ekanligini tekshirish:
-let Yson = prompt("musbat yoki nol tekshirish")
+let Yson = prompt("musbat yoki nol tekshirish '5'")
 if (Yson >= 0) {
     console.log("Yaroqli son")
 }
@@ -262,8 +262,8 @@ else{
 }
 
 //38 - Matn uzun bo‘lsa “Uzun matn” deb chiqaring.
-let matn5 = prompt("Uzun matin (5+)")
-if(matn5.length < 7){
+let matn5 = prompt("Uzun matin /5..")
+if(matn5.length < 5){
     console.log("Qisqa matn")
 } 
 else{
@@ -285,11 +285,11 @@ else{
 //41 - Yo‘l harorati tavsiyasi:
 let Yharorat = prompt("Yo'l harorati")
 if (Yharorat < 0){
-    console.log("Yo'lda ehtiyot bo‘ling")
+    console.log("Yo'lda ehtiyot bo'ling '-3'")
 }
 
 //42 - Ikki matn bir xil ekanligini tekshirish:
-let bRaqam = prompt("Bir xil matin kiriting")
+let bRaqam = prompt("Bir xil matn..")
 let bRaqam2 = prompt("yana kiriting")
 if (bRaqam == bRaqam2){
     console.log("Matnlar bir xil")
@@ -308,13 +308,13 @@ if(-tr > 0) {
 }
 
 //45 - 35 dan yuqori bo‘lsa “Xavfli issiq!” deb chiqaring.
-let harorat3 = prompt("Haroratni kiriting:")
+let harorat3 = prompt("Haroratni kiriting '36'")
 if (harorat3 > 35){
     console.log("Xavfli issiq!")
 }
 
 //46 Raqamlar nisbiy qiymati:
-let numb1 = prompt("Katta kichik son")
+let numb1 = prompt("Katta yoki kichik son")
 let numb2 = prompt("Yana kiriting")
 if (numb1 > numb2){
     console.log("Katta son")
@@ -369,7 +369,7 @@ if(fasl == 12){
 } 
 
 //50 - 2025 yuqori bo‘lsa “Kelajak yili” deb chiqaring:
-let kyil = prompt("2025/yuqori yil kiriting")
+let kyil = prompt("Yil kiriting '2028'")
 if (kyil > 2025){
     console.log("Kelajak yili")
 }
